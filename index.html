@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="start-btn">
+        <button>Start Quiz</button>
+    </div>
+    <div class="info-box">
+        <div class="info-title"><span>Rules</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have <span>10 Seconds </span>to answer each question correctly.</div>
+            <div class="info">2. Once an answer is selected, it can not be changed.</div>
+            <div class="info">3. If the timer reaches 0 and no answer has been selected, it will be counted as incorrect.</div>
+            <div class="info">4. Points will be awarded for each correct answer.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+    <!-- quiz -->
+    <div class="quiz-box">
+        <header>
+            <div class="title">JavaScript Quiz</div>
+            <div class="timer">
+                <div class="time-left-txt">Time Left</div>
+                <div class="timer-sec">10</div>
+            </div>
+            <div class="time-line"></div>
+        </header>
+        <section>
+            <div class="question-text">
+                <!-- populates from JavaScript -->
+            </div>
+            <div class="answer-text">
+                <!-- populates from JavaScript -->
+            </div>
+        </section>
+        <footer>
+            <div class="total-questions">
+                <!-- populates from JavaScript -->
+            </div>
+            <button class="next-btn">Next Question</button>
+        </footer>
+    </div>
+
+<!-- Result Box -->
+
+    <div class="result-box">
+        <div class="result-box">
+            <div class="icon">
+                <i class="fas fa-crown"></i>
+            </div>
+            <div class="complete-text">Congratulations, you've completed the JavaScript quiz!</div>
+            <div class="score-txt">
+                <!-- populates from Javascript -->
+            </div>
+            <div class="buttons">
+                <button class="restart">Restart Quiz</button>
+                <button class="quit">Exit Quiz</button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
