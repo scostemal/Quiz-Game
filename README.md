@@ -9,8 +9,9 @@ This is an interactive JavaScript quiz with multiple choice selection.
 
 # Screenshots of Application
 
+## Start Screen
 ![Start Screen](/images/start-screen.png)
-
+## Rules Screen
 ![Rules Screen](/images/rules-screen.png)
-
+## Question Screen
 ![Question Screen](/images/quiz-screen.png)
