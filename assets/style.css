@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: rgb(32, 30, 30);
+    background-color: rgb(36, 34, 34);
 }
 
 .start-btn, .info-box, .quiz-box, .result-box {
@@ -43,8 +43,7 @@ body {
 
 .start-btn button:hover {
     background: rgb(158, 82, 230);
-    transform: scale(1.23);
-    
+    transform: scale(1.23);  
 }
 
 .info-box {
@@ -134,8 +133,8 @@ body {
 }
 
 .quiz-box header .timer {
-    color: ;
-    background: ;
+    color: #fff;
+    background: rgb(149, 98, 196);
     border: 1px solid ;
     height: 45px;
     padding: 0 8px;
@@ -179,17 +178,17 @@ section {
     background: #fff;
 }
 
-section .question-text {
+section .que-text {
     font-size: 25px;
     font-weight: 600;
 }
 
-section .answer-text {
+section .option-list {
     padding: 20px 0px;
     display: block;
 }
 
-section .answer-text .answer {
+section .option-list .answer {
     background: blueviolet;
     border: 1px solid #343a40;
     border-radius: 5px;
@@ -203,33 +202,33 @@ section .answer-text .answer {
     justify-content: space-between;
 }
 
-section .answer-text .answer:last-child {
+section .option_list .answer:last-child {
     margin-bottom: 0px;
 }
 
-section .answer-text .answer:hover {
-    color: ;
-    background: ;
+section .option-list .answer:hover {
+    color: #fff;
+    background: blueviolet;
     border: 1px solid #343a40;
 }
 
-section .answer-text .answer.correct {
+section .option-list .answer.correct {
     color: green;
     background: #fff;
     border: 1px solid #343a40;
 }
 
-section .answer-text .answer.incorrect {
+section .option-list .answer.incorrect {
     color: red;
     background: #fff;
     border: 1px solid #343a40;
 }
 
-section .answer-text .answer.disabled {
+section .option-list .answer.disabled {
     pointer-events: none;
 }
 
-section .answer-text .answer .icon {
+section .option-list .answer .icon {
     height: 26px;
     width: 26px;
     border: 2px solid transparent;
@@ -241,13 +240,13 @@ section .answer-text .answer .icon {
     line-height: 24px;
 }
 
-.answer-text .answer .icon.tick {
+.option-list .answer .icon.tick {
     color: green;
     border-color: green;
     background: #fff;
 }
 
-.answer-text .answer .icon.cross {
+.option-list .answer .icon.cross {
     color: red;
     border-color: red;
     background: #fff;
@@ -262,12 +261,12 @@ footer {
     border-top: 1px solid #343a40;
 }
 
-footer .total-questions span {
+footer .total-que span {
     display: flex;
     user-select: none;
 }
 
-footer .total-questions span p:first-child {
+footer .total-que span p:first-child {
     padding-left: 0px;
 }
 
@@ -282,7 +281,6 @@ footer button {
     color: #fff;
     border-radius: 5px;
     background: blueviolet;
-    border: 1px solid #343a40;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -352,7 +350,6 @@ footer button.show {
     cursor: pointer;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #343a40;
     transition: all 0.5s ease;
 }
 
@@ -379,3 +376,47 @@ footer button.show {
     background: rgb(158, 82, 230);
     transform: scale(1.23);
 }
+/* 
+
+
+.result_box .buttons {
+    display: flex;
+    margin: 20px 0;
+}
+
+.result_box .buttons button {
+    margin: 0 10px;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #343a40;
+    transition: all 0.5s ease;
+}
+
+.buttons button.restart {
+    color: #fff;
+    background: blueviolet;
+    transition: all 0.5s ease;
+}
+
+.buttons button.restart:hover {
+    color: #fff;
+    background: rgb(158, 82, 230);
+    transform: scale(1.23);
+}
+
+.buttons button.quit {
+    color: #fff;
+    background: blueviolet;
+    transition: all 0.5s ease;
+}
+
+.buttons button.quit:hover {
+    color: #fff;
+    background: rgb(158, 82, 230);
+    transform: scale(1.23);
+} */
