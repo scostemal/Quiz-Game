@@ -1,14 +1,16 @@
-@import url('https://fonts.googlepis.com/css2?family=Poppins;wght@200;300;400;500;600;700&display=swap');
 
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family:'Poppins' , sans-serif
 }
 
 body {
-    background-color: rgb(36, 34, 34);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #1d2630;
 }
 
 .start-btn, .info-box, .quiz-box, .result-box {
@@ -36,13 +38,13 @@ body {
     outline: none;
     border: none;
     border-radius: 5px;
-    background: blueviolet;
+    background: #ff5235;
     cursor: pointer;
     transition: all 0.5s ease;
 }
 
 .start-btn button:hover {
-    background: rgb(158, 82, 230);
+    background: #ff5235;
     transform: scale(1.23);  
 }
 
@@ -79,7 +81,7 @@ body {
 
 .info-box .info-list .info span {
     font-weight: 600;
-    color: blueviolet;
+    color: #ff5235;
 }
 
 .info-box .buttons {
@@ -134,7 +136,7 @@ body {
 
 .quiz-box header .timer {
     color: #fff;
-    background: rgb(149, 98, 196);
+    background: #ff5235;
     border: 1px solid ;
     height: 45px;
     padding: 0 8px;
@@ -189,7 +191,7 @@ section .option-list {
 }
 
 section .option-list .answer {
-    background: blueviolet;
+    background: #ff5235;
     border: 1px solid #343a40;
     border-radius: 5px;
     padding: 8px 15px;
@@ -208,7 +210,7 @@ section .option_list .answer:last-child {
 
 section .option-list .answer:hover {
     color: #fff;
-    background: blueviolet;
+    background: #ff5235;
     border: 1px solid #343a40;
 }
 
@@ -280,7 +282,7 @@ footer button {
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: blueviolet;
+    background: #ff5235;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -289,7 +291,7 @@ footer button {
 }
 
 footer button:hover {
-    background-color: rgb(158, 82, 230);
+    background-color: #ff5235;
 }
 
 footer button.show {
@@ -355,68 +357,24 @@ footer button.show {
 
 .buttons button.restart {
     color: #fff;
-    background: blueviolet;
+    background: #ff5235;
     transition: all 0.5s ease;
 }
 
 .buttons button.restart:hover {
     color: #fff;
-    background: rgb(158, 82, 230);
+    background: #ff5235;
     transform: scale(1.23);
 }
 
 .buttons button.quit {
     color: #fff;
-    background: blueviolet;
+    background: #ff5235;
     transition: all 0.5s ease;
 }
 
 .buttons button.quit:hover {
     color: #fff;
-    background: rgb(158, 82, 230);
+    background: #ff5235;
     transform: scale(1.23);
 }
-/* 
-
-
-.result_box .buttons {
-    display: flex;
-    margin: 20px 0;
-}
-
-.result_box .buttons button {
-    margin: 0 10px;
-    height: 45px;
-    padding: 0 20px;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    outline: none;
-    border-radius: 5px;
-    border: 1px solid #343a40;
-    transition: all 0.5s ease;
-}
-
-.buttons button.restart {
-    color: #fff;
-    background: blueviolet;
-    transition: all 0.5s ease;
-}
-
-.buttons button.restart:hover {
-    color: #fff;
-    background: rgb(158, 82, 230);
-    transform: scale(1.23);
-}
-
-.buttons button.quit {
-    color: #fff;
-    background: blueviolet;
-    transition: all 0.5s ease;
-}
-
-.buttons button.quit:hover {
-    color: #fff;
-    background: rgb(158, 82, 230);
-    transform: scale(1.23);
-} */

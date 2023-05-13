@@ -1,108 +1,108 @@
 
 var questions = [
     {
-        numb: 1,
-        question: "Commonly used data types DO NOT inlcude:",
-        answer: "Alerts",
-        options: [
-            "Strings",
-            "Booleans",
-            "Alerts",
-            "Numbers"
-        ]
+    numb: 1,
+    question: "Which of the following is not a primitive data type in JavaScript?",
+    correct: "Array",
+    options: [
+    "ider",
+    "String",
+    "Boolean",
+    "Array"
+    ]
     },
     {
         numb: 2,
-        question: "The condition in an if/else statement is enclosed with:",
-        answer: "Parenthesis",
-        options: [
-            "Quotes",
-            "Parenthesis",
-            "Curly Brackets",
-            "Square Brackets"
-        ]
+    question: "What is the difference between == and === operators in JavaScript?",
+    correct: "=== compares both value and data type while == compares only values",
+    options: [
+    "=== compares only values while == compares both value and data type",
+    "=== compares both value and data type while == compares only values",
+    "=== compares both values and memory location while == compares only values",
+    "=== compares both values and memory location while == compares both values and data type"
+    ]
     },
     {
         numb: 3,
-        question: "Arrays in JavaScript can be used to store:",
-        answer: "All of the Above",
-        options: [
-            "Numbers and Strings",
-            "Booleans",
-            "Other Arrays",
-            "All of the Above"
-        ]
+    question: "What is the output of the following code: console.log(typeof null);",
+    correct: "object",
+    options: [
+    "null",
+    "undefined",
+    "object",
+    "string"
+    ]
     },
     {
         numb: 4,
-        question: "Which of the following methods is used to access HTML elements using JavaScript?",
-        answer: "Both A and B",
-        options: [
-            "getElementById()",
-            "getElementsByClassName()",
-            "Both A and B",
-            "None of the Above"
-        ]
+    question: "Which of the following is not a loop structure in JavaScript?",
+    correct: "repeat...until",
+    options: [
+    "for",
+    "while",
+    "do...while",
+    "repeat...until"
+    ]
     },
     {
         numb: 5,
-        question: "String values must be enclosed with __________ when being assigned to variables.",
-        answer: "Quotes",
-        options: [
-            "Commas",
-            "Parenthesis",
-            "Curly Brackets",
-            "Quotes"
-        ]
+    question: "What is the purpose of the 'use strict' directive in JavaScript?",
+    correct: "To enforce stricter parsing and error handling of JavaScript code",
+    options: [
+    "To enable new language features in JavaScript",
+    "To disable strict mode in JavaScript",
+    "To allow all global variables to be accessed",
+    "To enforce stricter parsing and error handling of JavaScript code"
+    ]
     },
     {
         numb: 6,
-        question: "A very useful tool during development and debugging for printing content to the debugger is:",
-        answer: "console.log",
-        options: [
-            "console.log",
-            "JavaScript",
-            "For Loops",
-            "Terminal/Bash"
-        ]
+    question: "What is the output of the following code: console.log(parseInt('10px'))?",
+    correct: "10",
+    options: [
+    "10px",
+    "undefined",
+    "NaN",
+    "10"
+    ]
     },
     {
         numb: 7,
-        question: "JavaScript is an __________ language.",
-        answer: "Object-Based",
-        options: [
-            "Object-Based",
-            "Object-Oriented",
-            "Procedural",
-            "All of the Above"
-        ]
+    question: "What is the purpose of the JavaScript function 'apply()'?",
+    correct: "To call a function with a given 'this' value and arguments provided as an array",
+    options: [
+    "To convert a string to a ider",
+    "To reverse the order of an array",
+    "To add a new element to the end of an array",
+    "To call a function with a given 'this' value and arguments provided as an array"
+    ]
     },
     {
         numb: 8,
-        question: "Which of the following keywords is used to define a variable in JavaScript?",
-        answer: "Both A and B",
-        options: [
-            "var",
-            "let",
-            "Both A and B",
-            "None of the Above"
-        ]
+    question: "What is the output of the following code: console.log(3 + 2 + '7')?",
+    correct: "57",
+    options: [
+    "12",
+    "327",
+    "57",
+    "NaN"
+    ]
     },
     {
         numb: 9,
-        question: "When encountering empty statements, what does the JavaScript interpreter do?",
-        answer: "Ignores the Statement",
-        options: [
-            "Gives a Warning",
-            "Ignores the Statement",
-            "Throws an Error",
-            "None of the Above"
-        ]
+    question: "What is the difference between 'let' and 'var' in JavaScript?",
+    correct: "'let' has block scope while 'var' has function scope",
+    options: [
+    "'let' has function scope while 'var' has block scope",
+    "'let' has block scope while 'var' has function scope",
+    "There is no difference between 'let' and 'var'",
+    "'let' can only be used for global variables while 'var' can be used for local variables"
+    ]
     },
     {
         numb: 10,
         question: "Which function is used to convert an object into a JSON string in JavaScript?",
-        answer: "stringify()",
+        correct: "stringify()",
         options: [
             "serialize()",
             "parse()",
@@ -111,8 +111,6 @@ var questions = [
         ]
     },
 ]
-
-
 
 var startBtn = document.querySelector(".start-btn button");
 var infoBox = document.querySelector(".info-box");
